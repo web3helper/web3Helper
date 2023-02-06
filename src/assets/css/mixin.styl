@@ -3,7 +3,7 @@
 //获取背景色
 bg_color($color)
   //默认样式（任意选择一个主题即可注意要和下面的默认主题一致）
-  background-color: light[$color];
+  // background-color: light[$color];
     
   for item in themeList
     //判断html的data-theme的属性值，{}是Stylus插值
@@ -14,7 +14,7 @@ bg_color($color)
 
 //获取字体颜色
 font_color($color)
-  color: light[$color];
+  // color: light[$color];
 
   for item in themeList
     [data-theme = {item.name}] & {

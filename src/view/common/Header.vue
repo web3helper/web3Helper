@@ -34,15 +34,30 @@ const count = ref(0)
 </script>
 
 <template>
-    <header class="mod-header">
-        <a class="logo card">
-            web3Helper 
+    <header class="main-header-container">
+      <div class="main-header">
+         <a class="header-logo">logo</a>
+         <div class="header-nav">header-nav</div>
+         <div class="header-info">header-info</div>
+      </div>
+         
+        <!-- <a class="logo card">
+          <h1 class="text-3xl font-bold ">
+            web3Helper
+          </h1>
         </a>
-        <div class="nav"></div>
+        <div class="nav">
+           <ul>
+               <li>Home</li>
+               <li>Token</li>
+               <li>NFT</li>
+               <li>Other Tools</li>
+           </ul>
+        </div>
         <div class="option">
             <button @click="chengTheme('light')">浅色</button>
             <button @click="chengTheme('dark')">深色</button>
-        </div>
+        </div> -->
     </header>
 </template>
 

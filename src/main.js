@@ -5,6 +5,7 @@ import './assets/css/border.styl';
 
 
 import './style.styl';
+import './tailwind.css';
 
 import App from './App.vue';
 import store from "./store";
