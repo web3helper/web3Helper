@@ -29,5 +29,14 @@ border_line_Color($color)
     [data-theme = {item.name}] & {
       border-bottom: 1px solid item[$color];
     }
+    
+//获取线条颜色
+box_Color($color)
+  // color: light[$color];
+  
+  for item in themeList
+    [data-theme = {item.name}] & {
+      background-color: item[$color];;
+    }
 
 
