@@ -49,6 +49,18 @@ const count = ref(0)
                  <div class="menu-button">
                       Token
                      <i class="icon iconfont icon-arrow-down"></i>
+                     <div class="dropdown-box dropdown-box-hidden"> 
+                         <div class="extra-container extra-container-horizontal">
+                               <div class="extra-box"> 
+                                    <a class="icon-button extra-buttons"> <span class="extra-text">Batch sending</span> </a>
+                                    <a class="icon-button extra-buttons"> <span class="extra-text">Batch collection</span> </a>
+                                    <a class="icon-button extra-buttons"> <span class="extra-text">Batch collection</span> </a>
+                                    <a class="icon-button extra-buttons"> <span class="extra-text">Batch collection</span> </a>
+                                    <a class="icon-button extra-buttons"> <span class="extra-text">Batch collection</span> </a>
+                                    <a class="icon-button extra-buttons"> <span class="extra-text">Batch collection</span> </a>
+                               </div>
+                         </div>
+                     </div>
                  </div>
                  <div class="menu-button">
                       NFT
@@ -129,10 +141,13 @@ body {
 
       .header-nav {
         display: flex
-
+   
         .menu-button {
+          position: relative;
           height: 32px;
           line-height: 32px;
+          font-size: 17px
+          font-weight: inherit;
           margin: 0 4px;
           padding: 0 12px;
           border-radius: 8px;
@@ -140,6 +155,10 @@ body {
           transition: background .2s ease-in;
           cursor: pointer;
           font_color(font_color_main);
+          .dropdown-box {
+              position: absolute;
+              // visibility: hidden;
+          }
         }
      
       }
@@ -184,7 +203,8 @@ body {
                     background: #fff
                     width: 130px
                     transition: max-height 15.25s;
-                    display: none
+                    visibility: hidden;
+
                     li {
                       padding: 5px 10px;
                       font-size: 16px 
@@ -192,7 +212,7 @@ body {
                 }
             }
             .action-bar-language:hover .cl-language{
-                display: block
+                visibility: visible;
             }
         }
       }

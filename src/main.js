@@ -6,6 +6,7 @@ import './assets/fonticon/iconfont.css';
 
 import './style.styl';
 import './tailwind.css';
+import 'animate.css';
 
 import App from './App.vue';
 import store from "./store";
