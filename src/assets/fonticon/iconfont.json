@@ -1,0 +1,72 @@
+{
+  "id": "3883412",
+  "name": "web3Helper",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "web3Helper",
+  "glyphs": [
+    {
+      "icon_id": "995179",
+      "name": "ETH",
+      "font_class": "eth1",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1467453",
+      "name": "yutube",
+      "font_class": "yutube",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "8356570",
+      "name": "推特1",
+      "font_class": "tuite",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "10330019",
+      "name": "gas-pump",
+      "font_class": "gas-pump",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "12011691",
+      "name": "arrow-down",
+      "font_class": "arrow-down",
+      "unicode": "e7b2",
+      "unicode_decimal": 59314
+    },
+    {
+      "icon_id": "13125275",
+      "name": "213-internet",
+      "font_class": "-internet",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "15536191",
+      "name": "Language",
+      "font_class": "Language",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "27365027",
+      "name": "discord",
+      "font_class": "discord",
+      "unicode": "ebf8",
+      "unicode_decimal": 60408
+    },
+    {
+      "icon_id": "29544458",
+      "name": "OpenSea-fill",
+      "font_class": "OpenSea-fill",
+      "unicode": "ed04",
+      "unicode_decimal": 60676
+    }
+  ]
+}

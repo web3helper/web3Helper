@@ -1,19 +1,5 @@
 import * as TYPE from '../actionType/contentStore'
 
-// douga 动画 1
-// bangumi 番剧 13
-// music 音乐 3
-// dance 舞蹈 129
-// game 游戏 4
-// technology  科技 36
-// life 生活 160
-// kichiku 鬼畜 119
-// fashion 时尚 155
-// ad 广告 165
-// ent  娱乐 5
-// movie 电影 23
-// teleplay TV剧 11
-
 const state = {
   // 默认排序
   double: 7,

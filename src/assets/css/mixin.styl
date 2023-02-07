@@ -21,4 +21,13 @@ font_color($color)
       color: item[$color];
     }
 
+//获取线条颜色
+border_line_Color($color)
+  // color: light[$color];
+  
+  for item in themeList
+    [data-theme = {item.name}] & {
+      border-bottom: 1px solid item[$color];
+    }
+
 

@@ -3,6 +3,7 @@ import { createStore } from 'vuex'
 
 import contentStore from './modules/contentStore'
 import user from './modules/user'
+import app from './modules/app'
 import createPersistedState from 'vuex-persistedstate'
 
 const state = {
@@ -21,6 +22,7 @@ export default createStore({
   state,
   getters,
   modules: {
+    app,
     user,
     contentStore
   },
@@ -28,7 +30,7 @@ export default createStore({
     createPersistedState({
       // local storsge
       key:"web3Dapp",
-      paths:["user", "contentStore"]
+      paths:["app", "user", "contentStore"]
     })
   ]
 })

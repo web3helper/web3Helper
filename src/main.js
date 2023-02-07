@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import 'normalize.css/normalize.css'
 import './assets/css/reset.styl';
 import './assets/css/border.styl';
-
+import './assets/fonticon/iconfont.css';
 
 import './style.styl';
 import './tailwind.css';

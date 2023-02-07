@@ -1,34 +1,43 @@
-html, body  {
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    overflow: hidden;
-}
+@import "./assets/css/mixin.styl";
+
 * {
     font-family: Inter,Helvetica,Arial,"Microsoft YaHei",sans-serif;
     font-weight: 500;
     -webkit-font-smoothing: antialiased;
 }
 
-:root {
-    --color-background: #1b1b1b;
-    --white-color-background: #fff;
-    color-scheme: light dark;
+html, body  {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    overflow: hidden;
+    height: 100%
+    transition: color 0.5s, background-color 0.5s;
 }
 
-body {
-  height: 100%
-  transition: color 0.5s, background-color 0.5s;
-}
-/* Media query monitoring */
-@media (prefers-color-scheme: dark) {
-    [data-theme = dark] body {
-      background-color: var(--color-background)
-    }
+#app {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 72px;
+    bg_color(background_color_main)
 }
 
-@media (prefers-color-scheme: light) {
-    [data-theme = light] body {
-        background-color: var(--white-color-background)
-    }
-}
+// :root {
+//     --color-background: #1b1b1b;
+//     --white-color-background: #fff;
+//     color-scheme: light dark;
+// }
+
+
+// @media (prefers-color-scheme: dark) {
+//     [data-theme = dark] body {
+//       background-color: var(--color-background)
+//     }
+// }
+
+// @media (prefers-color-scheme: light) {
+//     [data-theme = light] body {
+//         background-color: var(--white-color-background)
+//     }
+// }

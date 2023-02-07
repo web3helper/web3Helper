@@ -8,26 +8,19 @@ export default {
 }
 </script>>
 <template>
-   <main class="main">
+   <main class="main-content-wrapper">
+       <div class="main-content">
+            <div class="wrapper">
 
+            </div>
+       </div>
    </main>
 </template>
 
 <style lang="stylus" scoped>
-.home 
-  text-align: center
-  .home-title
-    padding: 1.875rem
+.main-content-wrapper {
    
-      
-  .notes-list
-    display: flex
-    align-items: center
-    justify-content: center
-    padding: .3125rem
-    .btu 
-      padding: .275rem
-      margin:2px 
-      background: #23fb09
+} 
+
 
 </style>
