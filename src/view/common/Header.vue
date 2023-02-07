@@ -157,7 +157,39 @@ body {
           font_color(font_color_main);
           .dropdown-box {
               position: absolute;
+              // left: -9999px;
+              // top: -9999px;
+              z-index: 1070;
+              // display: block;
+              font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 1.5;
               // visibility: hidden;
+              .extra-container-horizontal {
+                  width: 470px;
+              }
+              .extra-container {
+                  box-sizing: border-box;
+                  width: 256px;
+                  padding: 8px;
+                  bg_color(background_color_box);
+                  // box-shadow: 0 2px 12px 0 var(--drop-down-shadow-color);
+                  border-radius: 12px;
+                  .extra-box {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .extra-buttons {
+                        display: block;
+                        box-sizing: border-box;
+                        border-radius: 12px;
+                        padding: 12px;
+                        transition: background .3s linear;
+                        margin-bottom: 4px;
+                    }
+                  }
+              }
           }
         }
      
